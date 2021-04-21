@@ -13,7 +13,7 @@ def go(bot):
     while (True):
         if (bot.runTime() > 3000):
             print(bot.altitudeSensor())
-            bot.run(-100)
+            bot.run(0)
             break
         # include bot.weit(50) INSIDE YOUR WHILE LOOP to get better I and D values
         bot.wait(50) # No need to run this more than 20 times per second
