@@ -15,8 +15,8 @@ def go(bot):
     while (True):
 
 
-        # include bot.weit(50) INSIDE YOUR WHILE LOOP to get better I and D values
+        # include bot.wait(50) INSIDE YOUR WHILE LOOP to get better I and D values
         bot.wait(50) # No need to run this more than 20 times per second
     # ----------------------------------
-
+    # Choose two sets of kp,ki & kd values, one with overshoot one without. How do they compare?
 MainRun(go)
